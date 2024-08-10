@@ -1,0 +1,170 @@
+.About-section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+
+}
+
+
+.About-section h2{
+    color: white;
+}
+
+.About-section p{
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+.about-content-para{
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+    margin-left: 70px;
+    margin-top: 170px;
+ 
+   
+}
+.about-content{
+    margin-top: 150px;
+    text-align: left;
+    width: 100%;
+
+}
+.about-content h3{
+    font-size: 34px;
+     margin-bottom: 35px;
+     font-family: Raleway;
+
+   
+}
+.about-content button{
+    margin-top: 90px;
+    height: 60px;
+    width: 120px;
+
+    padding: 0px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+
+
+    
+
+}
+
+@font-face {
+    font-family:boldcomic ;
+    src: url(../../public/BoldComic-1G7zM.ttf);
+}
+@font-face {
+    font-family: bekin;
+    src: url(../../public/BekingBold-1Gqdg.ttf);
+}
+@font-face {
+    font-family:motely ;
+    src: url(../../public/MotleyForcesRegular-w1rZ3.ttf);
+}
+@font-face {
+    font-family:Raleway ;
+    src: url(../../public/Raleway-Heavy.ttf);
+}
+@font-face {
+    font-family:moon ;
+    src: url(../../public/MoonkidspersonaluseExtrabold-X3n72.otf);
+}
+
+@font-face {
+    font-family: Typo;
+    src: url(../../public/Typographica-Blp5.ttf);
+}
+
+@font-face {
+    font-family:fast-hand ;
+    src: url(../../public/FastHand-lgBMV.ttf);
+}
+
+.about-content button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+.about-content-para span{
+    color: rgb(167, 0, 0);
+    text-transform: uppercase;
+}
+.about-content-para h1{
+    font-size: 60px;
+    font-family: Typo;
+}
+
+.about-content-carousal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background-size: 500px cover;
+}
+
+.about-content h3{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-img{
+ height: 50%;
+ width: 80%;
+ image-resolution: 100%;
+ background-repeat: no-repeat;
+
+ background-position: center;
+
+
+ animation:gallery 10s ease-in-out alternate-reverse infinite ;
+ -webkit-animation:gallery 10s ease-in-out alternate-reverse infinite ;
+}
+
+@keyframes gallery{
+    0%{
+        background: url("https://images.hdqwalls.com/wallpapers/bthumb/kratos-quest-for-justice-bq.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    }
+    25%{
+        background: url("https://images.hdqwalls.com/wallpapers/bthumb/tom-clancys-xdefiant-2024-lc.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    50%{
+  
+        background: url("https://images.hdqwalls.com/wallpapers/bthumb/4k-assassins-creed-valhalla-ps5-game-g6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+  
+
+        background: url("https://images.hdqwalls.com/wallpapers/bthumb/2024-call-of-duty-black-ops-6-5k-fb.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+  
+
+ background: url("https://images.hdqwalls.com/wallpapers/bthumb/defender-cyberpunk-2077-35.jpg");
+ background-repeat: no-repeat;   
+ background-size: cover;
+    }
+
+}
+.about-content-para{
+    color: white;
+}
+
+
+

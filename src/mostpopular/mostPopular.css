@@ -1,0 +1,190 @@
+
+.swiper-content{
+    width: 50px;
+}
+
+.mostpopular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+    /* width: 500px; */
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.swiperslide {
+    width: 49%; /* Adjust this percentage to ensure you can see part of other slides */
+    margin: auto;
+    height: 600px;
+    position: relative;
+    display: flex;
+   padding: 10px;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+    padding: 10px;
+    
+
+
+
+background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgb(255, 255, 255);
+
+  }
+  .swiper-slide{
+  
+  }
+  
+  .swiperslide img {
+    width: 910px; /* This ensures the image takes up the full width of the slide */
+    height: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 20px;
+    -webkit-box-reflect: below 1px solid linear-gradient(transparent,transparent);
+  }
+  .fade{
+  
+   position: relative;
+  }
+
+  .fade::before {
+    content: "";
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0,0,0,0.2));
+    z-index: 1; */
+}
+  .most-popular-text-div {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 0;
+    transform: translateX(-50%);
+    color: white;
+
+    padding: 10px;
+    
+    border-radius: 5px;
+    text-align: left;
+    font-size: 30px;
+    font-family: good-time;
+/*    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  }
+
+  @font-face {
+    font-family:good-time ;
+    src: url(../../public/good\ times\ rg.otf);
+  }
+  
+  button {
+    margin-top: 10px;
+    /* padding: 5px 10px; */
+    /* background-color: #ff5722; */
+  
+    background-color: #e64a19;
+    /* border:15px solid #ff5722; */
+    /* border: 2px solid rgb(255, 31, 31); */
+    color: rgb(247, 247, 247);
+   
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+.most-popular-title2 h3{
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    font-family: fast-hand;
+    letter-spacing: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: -100px;
+   
+
+}
+
+@font-face {
+    font-family:boldcomic ;
+    src: url(../../public/BoldComic-1G7zM.ttf);
+}
+@font-face {
+    font-family: bekin;
+    src: url(../../public/BekingBold-1Gqdg.ttf);
+}
+@font-face {
+    font-family:motely ;
+    src: url(../../public/MotleyForcesRegular-w1rZ3.ttf);
+}
+@font-face {
+    font-family:Raleway ;
+    src: url(../../public/Raleway-Heavy.ttf);
+}
+@font-face {
+    font-family:moon ;
+    src: url(../../public/MoonkidspersonaluseExtrabold-X3n72.otf);
+}
+
+@font-face {
+    font-family: Typo;
+    src: url(../../public/Typographica-Blp5.ttf);
+}
+
+@font-face {
+    font-family:fast-hand ;
+    src: url(../../public/FastHand-lgBMV.ttf);
+}
+.swiper-cards{
+    height: auto;
+    background-color: rgb(0, 0, 0);
+}
+.swiper-slide-shadow-cards{
+    width: 20%;
+   
+}
+.category-button{
+    margin-top: -40px;
+    background-color: black;
+    text-align: center;
+    height: 20vh;
+}
+.category-button button{
+    height: 60px;
+    width: 250px;
+    background-color: #BA0021;
+    font-weight: 900;
+   
+}
+
+.category-button button:hover{
+    height: 60px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #BA0021;
+
+}
